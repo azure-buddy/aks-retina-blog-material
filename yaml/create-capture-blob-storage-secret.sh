@@ -1,1 +1,1 @@
-kubectl create secret generic capture-blob-storage --from-file=./blob-upload-url.txt
+kubectl create secret generic capture-blob-storage --from-file=blob-upload-url=./blob-upload-url.txt
