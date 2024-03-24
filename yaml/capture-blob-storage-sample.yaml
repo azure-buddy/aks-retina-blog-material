@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  ## Data key is required to be "blob-upload-url"
+  blob-upload-url: <based-encode-blob-sas-url>
+kind: Secret
+metadata:
+  name: capture-blob-storage
+  namespace: default
+type: Opaque
