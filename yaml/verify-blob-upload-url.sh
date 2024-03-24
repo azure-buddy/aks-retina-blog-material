@@ -1,0 +1,1 @@
+kubectl get secret capture-blob-storage -o jsonpath='{.data.blob-upload-url}' | base64 --decode
